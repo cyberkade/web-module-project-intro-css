@@ -21,10 +21,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-html{
-    font-size: 10px;
-    font-family: 'Roboto Mono', monospace;
-}
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +44,72 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+
+
+
+*{
+    
+}
+html{
+    font-size: 10px;
+    font-family: 'Roboto Mono', monospace;
+}
 h1{
     font-size:2.5rem;
     font-family: 'Chelsea Market', cursive;
+}
+header nav a:first-child{
+    background:#FF764E;
+}
+header nav a{
+    background: #5ED3EB;
+}
+header nav a:last-child{
+    background: #FFCD69;
+}
+img.header-img{
+    width: 20vw;
+    height: 20vh;
+    border-radius: 50%;
+}
+.footer-img{
+    width:100vw;
+    height: 20vh;
+    background:url(assets/footer_img.jpg);
+    background-size: cover;
+}
+.cards{
+    display:block;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.about{
+    width: 95%;
+    background:#DDB9A3;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0 auto;
+}
+.about p{
+    padding: 10px;
+    color: white;
+    margin: 10px;
+}
+
+footer{
+    background:#F9E7DC;
+    text-align: center;
+    width: 100vw;
+    height: 30vh;
+}
+
+footer nav a:first-child{
+    background:#FF764E;
+}
+footer nav a{
+    background: #5ED3EB;
+}
+footer nav a:last-child{
+    background: #FFCD69;
 }
