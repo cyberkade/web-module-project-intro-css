@@ -148,11 +148,6 @@ header nav a:last-child{
 }
 .cards img:last-of-type{
     margin-top: 50px;
-    /* margin-bottom: 0px                                          ; */
-}
-.cards img:hover{
-    width: 80px;
-    height: 80px;
 }
 .about{
     width: 95%;
